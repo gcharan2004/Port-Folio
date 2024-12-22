@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @page {
+            margin: 0.5in;
+        }
+        body {
+            font-family: 'Calibri', Arial, sans-serif;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+            color: #333;
+            line-height: 1.3;
+            background: #fff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .name {
+            font-size: 24px;
+            color: #1a5f7a;
+            margin-bottom: 8px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 13px;
+            align-items: center;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .icon {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+        }
+        .section {
+            margin-bottom: 12px;
+            page-break-inside: avoid;
+        }
+        .section-title {
+            font-size: 15px;
+            color: #1a5f7a;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 4px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .experience-item, .project-item, .education-item {
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .timeline {
+            position: absolute;
+            right: 0;
+            top: 0;
+            color: #666;
+            font-style: italic;
+            font-size: 12px;
+        }
+        .position-title {
+            font-weight: bold;
+            font-size: 13px;
+            margin-right: 180px;
+        }
+        ul {
+            margin: 4px 0;
+            padding-left: 18px;
+        }
+        li {
+            margin-bottom: 3px;
+            font-size: 12px;
+            line-height: 1.3;
+        }
+        .tag {
+            display: inline-block;
+            background: #f5f5f5;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-size: 11px;
+            margin: 1px;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+        .skill-category {
+            font-weight: bold;
+            font-size: 12px;
+            display: block;
+            margin-bottom: 4px;
+        }
+        a {
+            color: #1a5f7a;
+            text-decoration: none;
+        }
+        .ats-keywords {
+            display: none;
+        }
+        .coursework {
+            font-size: 12px;
+            margin-top: 4px;
+            line-height: 1.3;
+        }
+        .combined-skills {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ATS Keywords -->
+    <div class="ats-keywords">
+        software engineer full stack developer python java javascript react node.js data analysis machine learning cloud computing devops automation data structures algorithms mysql mongodb aws docker kubernetes neural networks ci/cd statistics probability linear algebra data cleaning visualization ETL database management system design REST API microservices agile methodology artificial intelligence deep learning autocad matlab microsoft office statistical analysis computer networks operating systems compiler design software engineering object-oriented programming
+    </div>
+
+    <div class="header">
+        <div class="name">GURU CHARAN CHATTI</div>
+        <div class="contact-info">
+            <span>+91 8106627034</span> |
+            <span><a href="mailto:guruchetan47@gmail.com">guruchetan47@gmail.com</a></span> |
+            <span class="contact-item">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                    <rect x="2" y="9" width="4" height="12"/>
+                    <circle cx="4" cy="4" r="2"/>
+                </svg>
+                <a href="https://linkedin.com/in/guru-charan-chatti-32b9282ab/">LinkedIn</a>
+            </span> |
+            <span class="contact-item">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+                <a href="https://github.com/gcharan2004">GitHub</a>
+            </span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <p style="font-size: 12px;">Versatile Software Developer with strong foundation in full-stack development, data analysis, and cloud computing. Proficient in Python, Java, and JavaScript with expertise in machine learning and data manipulation using NumPy, Pandas, and SQL. Demonstrated success in implementing scalable solutions and developing innovative applications. Strong background in mathematical modeling and statistical analysis with practical experience in AWS cloud services and DevOps practices.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">EDUCATION</div>
+        <div class="education-item">
+            <div class="position-title">Bachelor of Technology in Computer Science</div>
+            <div class="timeline">September 2021 - May 2025</div>
+            <div style="font-size: 12px;">Mahindra University, Hyderabad | CGPA: 7.0</div>
+            <div class="coursework">
+                <strong>Relevant Coursework:</strong> Data Structures, Computer Networks, Operating Systems, Database Management, Compiler Design, Software Engineering, Object-Oriented Programming, Design and Analysis of Algorithms
+            </div>
+        </div>
+        
+        <div class="education-item">
+            <div class="position-title">Intermediate Education (M.P.C)</div>
+            <div class="timeline">June 2019 - June 2021</div>
+            <div style="font-size: 12px;">FIITJEE Jr College, Hyderabad | Percentage: 95.2%</div>
+        </div>
+
+        <div class="education-item">
+            <div class="position-title">Secondary Education (SSC)</div>
+            <div class="timeline">June 2018 - April 2019</div>
+            <div style="font-size: 12px;">Velociity High School, Hyderabad | Percentage: 97%</div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+        <div class="experience-item">
+            <div class="position-title">Fraud Detection Analyst Intern</div>
+            <div class="timeline">October 2024 - December 2024</div>
+            <div style="font-size: 13px;"><a href="https://www.eventbee.com/sell-tickets-online-in-India">Eventbee</a></div>
+            <div class="subsection-title">Role Overview :</div>
+            <ul>
+                <li>
+                    Eventbee is an online event management platform that offers services such as online registration, event ticketing, and venue seating
+                </li>
+                <li>
+                    Fraud Detection Analyst Intern at Eventbee, specializing in identifying and mitigating fraudulent activities through detailed analysis of access log files. Collaborated with cross-functional teams, including developers, to strengthen platform security and optimize user experience for event organizers and attendees
+                </li>
+
+            </ul>       
+            <div class="subsection-title">Key Achievements :</div>    
+            <ul>
+                <li>Developed automated analysis scripts improving log processing efficiency by 30%, leveraging Python and machine learning algorithms</li>
+                <li>Implemented real-time fraud detection systems using AWS services, reducing fraudulent transactions by 40%</li>
+                <li>Developed expertise in Data Analysis, problem-solving, and security protocols, leveraging industry-standard practices to identify and mitigate fraudulent activities effectively</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="section">
+        <div class="section-title">TECHNICAL PROJECTS</div>
+        
+        <div class="project-item">
+            <div class="position-title">Complex Valued Hopfield Associative Memories</div>
+            <div class="timeline">March 2024 - Present</div>
+            <ul>
+                <li>I worked on developing an Associative memory model using complex-valued neural networks. Applied Data Analysis techniques to validate model efficiency and accuracy. Utilized Python and Matplotlib for simulations and Data visualization to present findings.</li>
+                <li>Designed a Complex-valued Hopfield network model, increasing memory storage capacity by approximately 30% compared to traditional binary Hopfield networks.</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="position-title">Production Level CI/CD Pipeline</div>
+            <div class="timeline">May 2024 - July 2024</div>
+            <ul>
+                <li>Architected end-to-end CI/CD pipeline using Jenkins and Docker</li>
+                <li>Implemented Infrastructure as Code using Terraform</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="position-title">Full-Stack Sorting Algorithm Visualizer</div>
+            <div class="timeline">May 2024 - July 2024</div>
+            <ul>
+                <li>Developed interactive web application demonstrating 6 different sorting algorithms</li>
+                <li>Implemented multiple sorting techniques, including Bubble Sort, Selection Sort, Merge Sort, Quick Sort, Insertion Sort, and Heap Sort, with options to adjust sorting speed and pause/resume functionality.</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="position-title">Online Retail Database Management System And EDA Car Data Analysis</div>
+            <div class="timeline">January 2024 - June 2024</div>
+            <ul>
+                <li>Designed database schema handling 100,000+ transactions</li>
+                <li>An Exploratory data analysis project examining car features and pricing trends using data from Car Dekho to uncover insights and patterns</li>
+                <li>Implemented advanced Data cleaning pipelines with 99.9% accuracy</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="position-title">Todo Web Application and Portfolio</div>
+            <div class="timeline">January 2024 - June 2024</div>
+            <ul>
+                <li>Developed a Todo Web Application using React, JavaScript, and HTML, providing users with the functionality to add, edit, delete, and track tasks in an intuitive interface.</li>
+                <li>My Portfolio</li>
+            </ul>
+        </div>
+
+    <div class="section">
+        <div class="section-title">TECHNICAL SKILLS</div>
+        <div class="skills-grid">
+            <div>
+                <span class="skill-category">Programming Languages:</span>
+                <span class="tag">Java</span>
+                <span class="tag">Python</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">C</span>
+            </div>
+            <div>
+                <span class="skill-category">Web Technologies:</span>
+                <span class="tag">React.js</span>
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+            </div>
+            <div>
+                <span class="skill-category">Databases & Cloud:</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Kubernetes</span>
+            </div>
+            <div>
+                <span class="skill-category">Data Science & Analysis:</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Matplotlib</span>
+                <span class="tag">Seaborn</span>
+            </div>
+        </div>
+        <div class="combined-skills">
+            <span class="skill-category">Design Software & Mathematical Skills:</span>
+            <span class="tag">AutoCAD</span>
+            <span class="tag">MATLAB</span>
+            <span class="tag">Microsoft Office</span>
+            <span class="tag">Probability</span>
+            <span class="tag">Statistical Analysis</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">CERTIFICATIONS</div>
+        <ul>
+            <li>AWS Cloud Practitioner Global Certification</li>
+            <li>Oracle Certified Associate Java SE 8 Programmer</li>
+        </ul>
+    </div>
+</body>
+</html>
